@@ -1,0 +1,7 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 阅读使用说明（README）
+    url: https://github.com/YannJY02/vibe-coding-practice#readme
+    about: 在创建 Issue 前先阅读文档，可能已有答案。
+
+

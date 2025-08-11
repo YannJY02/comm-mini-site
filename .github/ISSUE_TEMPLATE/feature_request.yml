@@ -1,0 +1,37 @@
+name: 功能需求
+description: 提出新的功能或改进建议
+title: "[Feature] 简要描述需求"
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 背景与问题
+      description: 你所遇到的痛点或希望达到的目标
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 解决方案草案
+      description: 请描述希望如何实现该功能（可包含结构、样式、交互等）
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 备选方案
+      description: 是否考虑过其他替代方案？
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: 变更范围
+      options:
+        - label: 仅静态内容（HTML 文案/结构）
+        - label: 样式（CSS）
+        - label: 构建/部署（CI/CD）
+  - type: textarea
+    id: extra
+    attributes:
+      label: 其他信息
+
+
